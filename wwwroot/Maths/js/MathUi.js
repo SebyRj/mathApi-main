@@ -99,7 +99,7 @@ function renderUrlForm() {
 
         let result = await Maths_API.Get(formData.Url);
         if (result)
-            renderBookmarks();
+            renderTests();
         else
             renderError("Une erreur est survenue!");
     });
